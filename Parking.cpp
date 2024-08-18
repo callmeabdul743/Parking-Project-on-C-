@@ -23,11 +23,18 @@ while(ture){
         bike++;
         }
 
-    //for car(1)
+    //for car(2)
         else if(i==2){
         amount= amount+200;
         count++;
         car++;
+        }
+
+    //for car(3)
+        else if(i==3){
+        amount= amount+300;
+        count++;
+        bus++;
         }
     }
     else{
