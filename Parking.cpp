@@ -13,7 +13,7 @@ while(true){
     cout<<"Press 4 see the all the entries"<<endl;
     cout<<"Press 5 to delete all the entries"<<endl;
     cin>>i;
-    cout<<"/////////////////////////////////////////////////\n";
+    cout<<"--------------------------------------------------\n";
 
     //for bike(1)
     if(count <= capacity){
@@ -41,7 +41,8 @@ while(true){
         else if(i==4){
         cout<<"\n*******************************************\n";
         cout<<"The total amount is: Rs."<<amount<<endl;
-        cout<<"Total number of vehicles: "<<count<<endl;
+        cout<<"Occupied Space: "<<count<<endl;
+        cout<<"Free Slots: "<<capacity-count<<endl;
         cout<<"Total number of bikes: "<<bike<<endl;
         cout<<"Total number of cars: "<<car<<endl;
         cout<<"Total number of buses: "<<bus<<endl;
