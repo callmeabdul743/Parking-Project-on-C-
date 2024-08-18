@@ -36,6 +36,16 @@ while(ture){
         count++;
         bus++;
         }
+    
+    //for see details(4)
+        else if(i==4){
+        cout<<"The total amount is: Rs."<<amount<<endl;
+        cout<<"Total number of vehicles: "<<count<<endl;
+        cout<<"Total number of bikes: "<<bike<<endl;
+        cout<<"Total number of cars: "<<car<<endl;
+        cout<<"Total number of buses: "<bus<<endl;
+
+        }
     }
     else{
         cout<<"Capacit if full";
