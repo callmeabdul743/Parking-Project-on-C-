@@ -2,6 +2,7 @@
 using namespace std;
 int main(){
 while(ture){
+    start:
     int i;
     int capacity=100;
     int amount=0;
@@ -39,16 +40,35 @@ while(ture){
     
     //for see details(4)
         else if(i==4){
+        cout<<"\n*******************************************\n";
         cout<<"The total amount is: Rs."<<amount<<endl;
         cout<<"Total number of vehicles: "<<count<<endl;
         cout<<"Total number of bikes: "<<bike<<endl;
         cout<<"Total number of cars: "<<car<<endl;
-        cout<<"Total number of buses: "<bus<<endl;
+        cout<<"Total number of buses: "<<bus<<endl;
+        cout<<"*******************************************\n";
+        }
+    
+    //for see details(5)
+        else if(i==5){
+        cout<<"\n*******************************************\n";
+        amount=0;
+        count=0;
+        bike=0;
+        car=0;
+        bus=0;
+        cout<<"Details deleted Successfully";
+        cout<<"\n*******************************************\n";
+        }
 
+    //else condition
+        else{
+            cout<<"Invalid Input";
+            goto start;
         }
     }
     else{
-        cout<<"Capacit if full";
+        cout<<"Capacity if full";
     }
 }
     return 0;
