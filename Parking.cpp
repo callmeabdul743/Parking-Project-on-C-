@@ -1,6 +1,7 @@
 #include <iostream>
 using namespace std;
 int main(){
+while(ture){
     int i;
     int capacity=100;
     int amount=0;
@@ -15,19 +16,23 @@ int main(){
     cin>>i;
 
     //for bike(1)
-    if(count =< capacity){
+    if(count <= capacity){
         if(i==1){
         amount= amount+100;
         count++;
         bike++;
         }
+
+    //for car(1)
+        else if(i==2){
+        amount= amount+200;
+        count++;
+        car++;
+        }
     }
     else{
-        cout<<"Capacity is full";
+        cout<<"Capacit if full";
     }
-
-
-
-
+}
     return 0;
 }
